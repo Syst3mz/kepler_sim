@@ -85,7 +85,7 @@ fn handle_input(state: &mut State) {
     if is_key_down(LeftShift) || is_key_down(RightShift) {
         speed_delta_factor *= 10.0;
     }
-    if is_key_down(LeftControl) || is_key_down(RightControl) {
+    if is_key_down(KeyCode::Z) {
         speed_delta_factor *= 100.0;
     }
 
